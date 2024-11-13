@@ -24,9 +24,16 @@
     "build": "vue-tsc --noEmit && vite build && electron-builder",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "puppeteer-core": "^21.1.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "puppeteer-extra-plugin-user-preferences": "^2.4.1"
+  },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
-    "electron": "^29.1.1",
+    "electron": "^32.2.0",
     "electron-builder": "^24.13.3",
     "typescript": "^5.4.2",
     "vite": "^5.1.5",
